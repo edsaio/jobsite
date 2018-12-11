@@ -1,0 +1,22 @@
+platform :ios, '12.1'
+
+target 'job-m' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Firebase
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  
+  # Pods for Google Login
+  pod 'GoogleSignIn'
+
+  # Pods for Facebook
+  pod 'Bolts'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  
+  pod 'Alamofire'
+  pod 'SVProgressHUD'
+
+end
